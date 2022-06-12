@@ -1,0 +1,8 @@
+coco_config {
+  root_directory_path: "/workspace/tao-experiments"
+  img_dir_names: ["data/loco/dataset/subset-2", "data/loco/dataset/subset-3", "data/loco/dataset/subset-5"]
+  annotation_files: ["warehousenet/labels/loco-sub2-v1-train.json", "warehousenet/labels/loco-sub3-v1-train.json", "warehousenet/labels/loco-sub5-v1-train.json"]
+  num_partitions: 3
+  num_shards: [1]
+}
+image_directory_path: "/workspace/tao-experiments"
